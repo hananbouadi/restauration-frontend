@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.homecontainer input[type="radio"] {
+    display: none;
+  }
+  .homecontainer .star {
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin: 5px;
+  }
+.homecontainer{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 6px;
+    overflow-y: auto;
+    max-height: 600px;  
+}
+.scrollbar {
+    overflow-y: auto;
+  }
+  
+  /* WebKit browsers (Chrome, Safari) */
+  .scrollbar::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .scrollbar::-webkit-scrollbar-thumb {
+    background-color: #fffdd0;
+    border-radius: 5px;
+  }
+  
+  .scrollbar::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+
+.homecontainer .itemcontainer{
+    border: solid #fffdd0 3px;
+    border-radius: 8px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    height: 200px;
+}
+.homecontainer .itemcontainer img{
+    width: 100%;
+    height: 200px;
+}
+
+@media (max-width:678px){
+    .homecontainer .itemcontainer p{
+        overflow: hidden;
+        text-overflow: ellipsis;
+}
+  }
+/* .homecontainer .hcontainer{
+    display: block;
+    text-align: center;
+    
+}
+.homecontainer .hcontainer h1:first-child{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 37px;
+}
+.homecontainer .hcontainer h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 37px;
+}
+.homecontainer .main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 6px;
+    margin-top: 30px;
+    margin: 20px;
+}
+.homecontainer .main img{
+    width: 100%;
+    height: 350px;
+}
+.homecontainer .main p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.homecontainer .main h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.homecontainer .main button{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    width: 70px;
+    margin-right: 30px;
+    background-color: #ffffff;
+    border: solid black 2px;
+}
+.homecontainer .main button:hover{
+    border: solid white 2px;
+    background-color: black;
+    color: aliceblue;
+} */
